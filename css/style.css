@@ -1,0 +1,75 @@
+body{
+    font-family: 'Open Sans', sans-serif;
+}
+
+.margin-auto{
+    margin-left: auto;
+}
+
+.text-black{
+    color: black;
+}
+
+.title{
+    font-family: 'Rampart One', cursive;
+    font-size: 30px;
+}
+
+.text-size{
+    font-size: 20px;
+}
+
+.text-margin{
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.hero{
+    background-image:url(../images/homepage.png);
+    background-size: cover;
+    height:75vh;
+}
+
+.text{
+    font-family: 'Festive', cursive;
+    color:white;
+}
+
+.text-font{
+    font-family: 'Rampart One', cursive;
+}
+
+.button:hover{
+    background-color: red;
+}
+
+.imgsize{
+    width: 184px;
+    height:184px;
+}
+
+.add-cart{
+
+    width: 100%;
+    background-color:darkgray;
+    transition: all 0.3s ease-in-out;
+    opacity: 0;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.image:hover .cart1,
+.image:hover .cart2,
+.image:hover .cart3,
+.image:hover .cart4{
+    bottom: 50px;
+    opacity:1;
+    padding:10px;
+    text-decoration: none;
+}
+
+.display{
+    display: block;
+    margin-left: auto;
+    margin-right: auto
+}
